@@ -1,2 +1,2 @@
 # merge
-to study merge conflicts
+Demo on docker-compose
