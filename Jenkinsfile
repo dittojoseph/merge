@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy') { 
             steps { 
                 
-                 sh''' sudo /usr/local/bin/docker-compose -d '''
+                 sh''' sudo /usr/local/bin/docker-compose up -d '''
                 }
             }
        }
